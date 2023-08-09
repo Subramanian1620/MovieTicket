@@ -1,0 +1,10 @@
+<form [formGroup]="myForm">
+    <div class="row">
+        <p>Do you want to Delete the Show?</p> 
+            <button mat-raised-button color="primary" (click)="deleteshows()"
+                style="margin-right: 20px;">Yes</button>
+
+            <button mat-raised-button color="primary" (click)="onCloseClick()">No</button>
+        
+    </div>
+</form>
