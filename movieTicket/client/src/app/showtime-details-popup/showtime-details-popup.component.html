@@ -1,0 +1,32 @@
+<h2>{{ data.moviename }}</h2>
+<p>Showtime: {{ data.showtime }}</p>
+<p>Theatre: {{ data.theatresname }}</p>
+<p>Available Seats: {{ data.availableSeats }}</p>
+<div style="border: 1px solid black; padding: 10px;">
+    <p style="font-size: 22px;">Offers</p>
+    <p>More than 5 - 10 ticket bookings will result in an 8% reduction in the total amount.</p>
+    <p>More than 11 - 20 ticket bookings will result in a 15% reduction in the total amount.</p>
+    <p>More than 21 - 25 ticket bookings will result in a 20% reduction in the total amount.</p>
+
+</div><br>
+
+<form [formGroup]="myForm">
+    <div class="row">
+
+        <div>
+            <label>No Of Tickets : </label>
+            <input type="number" formControlName="noofticket" (keyup)="calculateNet()" />Rs 150 per ticket <br><br>
+            <label>Total Amount : </label>
+            <input type="number" formControlName="amount" readonly/>
+            <input type="hidden" formControlName="showid" value={{data.showtimeid}} >
+        </div><br>
+        <div>
+            <!-- <button (click)="bookingticket()">Save</button> -->
+            <button mat-raised-button color="primary" (click)="bookingticket()"
+                style="margin-right: 20px;">Save</button>
+
+            <button mat-raised-button color="primary" (click)="onCloseClick()">Close</button>
+            <!-- <button mat-button (click)="onCloseClick()">Close</button> -->
+        </div>
+    </div>
+</form>
