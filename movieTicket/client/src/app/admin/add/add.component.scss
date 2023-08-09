@@ -1,0 +1,34 @@
+  .center-form {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .custom-table {
+    width: 100%;
+  }
+  .mat-cell {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin-bottom: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .example-button-row{
+    margin-top: 30px;
+  }
+  
