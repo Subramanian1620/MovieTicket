@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "targets": [
+      "angular_function",
+      "createmovie"
+    ],
+    "ignore": [
+      ".output"
+    ],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client",
+    "plugin": "zcatalyst-cli-plugin-angular"
+  }
+}

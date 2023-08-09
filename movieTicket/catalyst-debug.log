@@ -1,0 +1,584 @@
+[debug] [2023-08-08T18:01:41.402Z] : 
+[debug] [2023-08-08T18:01:41.402Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:01:41.403Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEV-029\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-08-08T18:01:41.403Z] : CLI Version:  1.15.1
+[debug] [2023-08-08T18:01:41.403Z] : Platform:     win32
+[debug] [2023-08-08T18:01:41.403Z] : Node Version: v16.1.0
+[debug] [2023-08-08T18:01:41.405Z] : Time:         Tue Aug 08 2023 23:31:41 GMT+0530 (India Standard Time)
+[debug] [2023-08-08T18:01:41.405Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:01:41.405Z] : 
+[debug] [2023-08-08T18:01:43.022Z] : > authorizing via signed-in user option
+[debug] [2023-08-08T18:01:43.024Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-08-08T18:01:43.043Z] : > refreshing access token <
+[debug] [2023-08-08T18:01:43.046Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-08-08T18:01:43.246Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:01:43 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=aea828e0-27a0-4dbb-a2db-e971d5e90df1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aea828e0-27a0-4dbb-a2db-e971d5e90df1;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:01:43.258Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769 
+
+[debug] [2023-08-08T18:01:43.526Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:01:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5a474605-97a1-4b53-ad1f-78778cdf4e06;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5a474605-97a1-4b53-ad1f-78778cdf4e06;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:01:43.538Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/environment 
+
+[debug] [2023-08-08T18:01:43.672Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:01:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=d85b3ba5-2824-44ec-ba77-5bea58ad0472;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d85b3ba5-2824-44ec-ba77-5bea58ad0472;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:01:45.760Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-08-08T18:01:49.588Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:01:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=33482081-2c06-450b-a73a-b4229d469c5e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=33482081-2c06-450b-a73a-b4229d469c5e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:01:49.595Z] : unknown eol undefined hence skipping check
+[debug] [2023-08-08T18:01:49.596Z] : unknown eol undefined hence skipping check
+[info] [2023-08-08T18:01:50.242Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[debug] [2023-08-08T18:01:53.146Z] : http port : '3010' is not available. Hence port '3011' will be used instead.
+[info] [2023-08-08T18:01:53.257Z] : 
+[info] [2023-08-08T18:01:53.258Z] : i Client[angular-app]: Plugin : "zcatalyst-cli-plugin-angular" is used for client serve
+[info] [2023-08-08T18:01:53.258Z] : 
+[info] [2023-08-08T18:01:53.842Z] : 
+[info] [2023-08-08T18:01:53.843Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-08-08T18:01:53.844Z] : i angular_function: http://localhost:3000/server/angular_function/
+[info] [2023-08-08T18:01:53.844Z] : i createmovie     : http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:01:53.844Z] : 
+[info] [2023-08-08T18:01:53.844Z] : 
+[info] [2023-08-08T18:01:53.845Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-08-08T18:01:53.845Z] : i client[angular-app]: http://localhost:3000/app/
+[info] [2023-08-08T18:01:53.845Z] : 
+[info] [2023-08-08T18:02:27.833Z] : [Angular-plugin]: NOTICE: Hot Module Replacement (HMR) is enabled for the dev server.
+[Angular-plugin]: See https://webpack.js.org/guides/hot-module-replacement for information on working with HMR for Webpack.
+[info] [2023-08-08T18:03:21.688Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files   | Names         |      Size
+[Angular-plugin]: vendor.js             | vendor        |   5.67 MB
+[Angular-plugin]: polyfills.js          | polyfills     | 538.53 kB
+[Angular-plugin]: styles.css, styles.js | styles        | 498.25 kB
+[Angular-plugin]: main.js               | main          | 100.72 kB
+[Angular-plugin]: runtime.js            | runtime       |  47.59 kB
+[Angular-plugin]: 
+[Angular-plugin]:                       | Initial Total |   6.83 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:03:20.756Z - Hash: 2de0a4811314a7021648 - Time: 24433ms
+[info] [2023-08-08T18:03:21.694Z] : [Angular-plugin]: 
+[Angular-plugin]: ** Angular Live Development Server is listening on localhost:3050, open your browser on http://localhost:3050/app **
+[Angular-plugin]: 
+[info] [2023-08-08T18:03:21.697Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:03:21.745Z] : [Angular-plugin]: Please visit this url to access angular-app: http://localhost:3000/app/
+[info] [2023-08-08T18:19:06.446Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:19:06.813Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[warn] [2023-08-08T18:19:07.858Z] : ‼ target [createmovie] is not a valid one reason : there was a compilation error!
+[info] [2023-08-08T18:19:07.858Z] : Waiting for correction..
+[info] [2023-08-08T18:19:07.858Z] : 
+(To exit, press ^C)
+[info] [2023-08-08T18:21:46.875Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:21:47.234Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:21:48.722Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:21:48.723Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:22:38.196Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:22:38.478Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:22:39.947Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:22:39.948Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[debug] [2023-08-08T18:23:21.298Z] : proxy closed
+[info] [2023-08-08T18:25:18.140Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:25:18.479Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:25:19.723Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:25:19.723Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[debug] [2023-08-08T18:25:22.789Z] : proxy closed
+[info] [2023-08-08T18:25:56.072Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:25:56.468Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:25:57.698Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:25:57.699Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[debug] [2023-08-08T18:26:00.078Z] : proxy closed
+[info] [2023-08-08T18:26:12.559Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:26:12.877Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:26:14.129Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:26:14.130Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:26:17.294Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.2de0a4811314a7021648.hot-update.js       | main    | 103.94 kB
+[Angular-plugin]: runtime.js, runtime.2de0a4811314a7021648.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:26:17.215Z - Hash: 0a2e07b5be5461d3e652 - Time: 1332ms
+[info] [2023-08-08T18:26:17.295Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:27:43.132Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:27:43.438Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:27:44.722Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:27:44.722Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[debug] [2023-08-08T18:27:56.616Z] : proxy closed
+[info] [2023-08-08T18:28:34.469Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:28:34.784Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:28:35.998Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:28:35.999Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:28:57.886Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.0a2e07b5be5461d3e652.hot-update.js       | main    | 103.93 kB
+[Angular-plugin]: runtime.js, runtime.0a2e07b5be5461d3e652.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:28:57.827Z - Hash: fa496369d8623ae36fa9 - Time: 720ms
+[info] [2023-08-08T18:28:57.887Z] : [Angular-plugin]: 
+[Angular-plugin]: Warning: D:\angular\client\node_modules\webpack\hot\dev-server.js depends on 'webpack/hot/emitter'. CommonJS or AMD dependencies can cause optimization bailouts.
+[Angular-plugin]: For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[Angular-plugin]: 
+[Angular-plugin]: 
+[info] [2023-08-08T18:28:57.888Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:29:24.711Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.fa496369d8623ae36fa9.hot-update.js       | main    | 103.93 kB
+[Angular-plugin]: runtime.js, runtime.fa496369d8623ae36fa9.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:29:24.559Z - Hash: b4bf9490e14691671711 - Time: 517ms
+[info] [2023-08-08T18:29:24.712Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:29:38.290Z] : proxy closed
+[debug] [2023-08-08T18:29:48.938Z] : proxy closed
+[info] [2023-08-08T18:30:32.370Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.b4bf9490e14691671711.hot-update.js       | main    | 103.92 kB
+[Angular-plugin]: runtime.js, runtime.b4bf9490e14691671711.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:30:32.316Z - Hash: b9ba7357358befe06132 - Time: 545ms
+[info] [2023-08-08T18:30:32.371Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:30:39.300Z] : Shutting down server
+[debug] [2023-08-08T18:30:39.322Z] : proxy closed
+[info] [2023-08-08T18:30:39.354Z] : 
+[info] [2023-08-08T18:30:39.355Z] : √ Shutdown complete
+[debug] [2023-08-08T18:30:39.355Z] : NO ERRORS REGISTERED
+[debug] [2023-08-08T18:30:39.356Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-08-08T18:30:39.356Z] : TOTAL DURATION OF COMMAND EXEC : 1736359
+[debug] [2023-08-08T18:30:39.476Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-08T18:30:40.235Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:40 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","JSESSIONID=06F0B1F26A4F6E15E58633D2CB76BD75; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-08-08T18:30:40.237Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2023-08-08T18:30:40.238Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2023-08-08T18:30:44.142Z] : 
+[debug] [2023-08-08T18:30:44.143Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:30:44.143Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEV-029\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-08-08T18:30:44.143Z] : CLI Version:  1.15.1
+[debug] [2023-08-08T18:30:44.144Z] : Platform:     win32
+[debug] [2023-08-08T18:30:44.144Z] : Node Version: v16.1.0
+[debug] [2023-08-08T18:30:44.146Z] : Time:         Wed Aug 09 2023 00:00:44 GMT+0530 (India Standard Time)
+[debug] [2023-08-08T18:30:44.146Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:30:44.146Z] : 
+[debug] [2023-08-08T18:30:46.080Z] : > authorizing via signed-in user option
+[debug] [2023-08-08T18:30:46.081Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2023-08-08T18:30:46.100Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769 
+
+[debug] [2023-08-08T18:30:46.284Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=2abfcca0-e48e-4f73-9586-44f54a2c26b8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2abfcca0-e48e-4f73-9586-44f54a2c26b8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:30:46.288Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/environment 
+
+[debug] [2023-08-08T18:30:46.416Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=1bbe0ba1-df86-4cce-919a-b291dbee42b0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1bbe0ba1-df86-4cce-919a-b291dbee42b0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:30:46.440Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-08-08T18:30:46.565Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=f23fc4e1-5061-4fa8-9bc2-2b9f11ee5f4f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f23fc4e1-5061-4fa8-9bc2-2b9f11ee5f4f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:30:46.569Z] : unknown eol undefined hence skipping check
+[debug] [2023-08-08T18:30:46.569Z] : unknown eol undefined hence skipping check
+[info] [2023-08-08T18:30:47.188Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[debug] [2023-08-08T18:30:48.593Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:30:49.445Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=9193a938-d725-4366-8bfb-695409ed9f06;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9193a938-d725-4366-8bfb-695409ed9f06;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:30:49.452Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:30:56.512Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:30:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=ec675db4-ef2a-421b-b821-440399c8c8f6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ec675db4-ef2a-421b-b821-440399c8c8f6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T18:31:01.268Z] : i Plugin : "zcatalyst-cli-plugin-angular" is used for client deploy
+[info] [2023-08-08T18:31:01.269Z] : i Building Application...
+[info] [2023-08-08T18:32:06.318Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files               | Names         |      Size
+[Angular-plugin]: main.a9d8c35d3fce695d1ec2.js      | main          | 966.05 kB
+[Angular-plugin]: styles.36ecd3aca4e87a458112.css   | styles        |  71.47 kB
+[Angular-plugin]: polyfills.d2a824273ffa35cae5bb.js | polyfills     |  33.11 kB
+[Angular-plugin]: runtime.8717589de7b65d27604e.js   | runtime       |   1.12 kB
+[Angular-plugin]: 
+[Angular-plugin]:                                   | Initial Total |   1.05 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:32:06.312Z - Hash: 252d612b90dba91815e5 - Time: 28893ms
+[debug] [2023-08-08T18:32:06.581Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/webapp 
+
+[debug] [2023-08-08T18:32:07.521Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:32:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=ba790515-03fd-43d6-ac83-f7a4ee4fd40e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ba790515-03fd-43d6-ac83-f7a4ee4fd40e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T18:32:07.528Z] : 
+[info] [2023-08-08T18:32:07.529Z] : i functions(angular_function): URL => https://angular-60013485476.development.catalystserverless.in/server/angular_function/
+[info] [2023-08-08T18:32:07.530Z] : √ functions(angular_function): deploy successful
+[info] [2023-08-08T18:32:07.530Z] : i functions(createmovie): URL => https://angular-60013485476.development.catalystserverless.in/server/createmovie/
+[info] [2023-08-08T18:32:07.531Z] : √ functions(createmovie): deploy successful
+[info] [2023-08-08T18:32:07.531Z] : 
+[info] [2023-08-08T18:32:07.531Z] : √ client: deploy successful
+[info] [2023-08-08T18:32:07.532Z] : i client: URL => https://angular-60013485476.development.catalystserverless.in/app/index.html
+[info] [2023-08-08T18:32:07.532Z] : 
+[info] [2023-08-08T18:32:07.533Z] : √ Catalyst deploy complete!
+[debug] [2023-08-08T18:32:07.533Z] : NO ERRORS REGISTERED
+[debug] [2023-08-08T18:32:07.533Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-08-08T18:32:07.533Z] : TOTAL DURATION OF COMMAND EXEC : 81478
+[debug] [2023-08-08T18:32:07.697Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-08T18:32:08.496Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:32:08 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","JSESSIONID=AE1211EB69F2AB5C3F4228B1332B76B3; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-08-08T18:32:08.497Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2023-08-08T18:32:08.498Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2023-08-08T18:42:24.481Z] : 
+[debug] [2023-08-08T18:42:24.483Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:42:24.484Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEV-029\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-08-08T18:42:24.484Z] : CLI Version:  1.15.1
+[debug] [2023-08-08T18:42:24.484Z] : Platform:     win32
+[debug] [2023-08-08T18:42:24.484Z] : Node Version: v16.1.0
+[debug] [2023-08-08T18:42:24.493Z] : Time:         Wed Aug 09 2023 00:12:24 GMT+0530 (India Standard Time)
+[debug] [2023-08-08T18:42:24.493Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:42:24.493Z] : 
+[debug] [2023-08-08T18:42:26.530Z] : > authorizing via signed-in user option
+[debug] [2023-08-08T18:42:26.532Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2023-08-08T18:42:26.557Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769 
+
+[debug] [2023-08-08T18:42:26.738Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:42:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=0046f91b-7186-4705-88e6-8ed11df1dacd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0046f91b-7186-4705-88e6-8ed11df1dacd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:42:26.743Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/environment 
+
+[debug] [2023-08-08T18:42:26.862Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:42:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=d2ea2aec-9349-48aa-8b56-56c04df212c8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d2ea2aec-9349-48aa-8b56-56c04df212c8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:42:26.884Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-08-08T18:42:27.041Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:42:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=4baa144c-3fda-4e55-9dc9-87259a955b6d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4baa144c-3fda-4e55-9dc9-87259a955b6d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:42:27.044Z] : unknown eol undefined hence skipping check
+[debug] [2023-08-08T18:42:27.044Z] : unknown eol undefined hence skipping check
+[info] [2023-08-08T18:42:28.093Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[debug] [2023-08-08T18:42:29.676Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:42:30.239Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:42:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=123153ba-b9dc-4481-9a07-2700c4381d23;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=123153ba-b9dc-4481-9a07-2700c4381d23;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:42:30.243Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:42:37.031Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:42:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=78222eec-6b31-4b51-9fb4-f8178f64f4fc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=78222eec-6b31-4b51-9fb4-f8178f64f4fc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T18:42:39.422Z] : i Plugin : "zcatalyst-cli-plugin-angular" is used for client deploy
+[info] [2023-08-08T18:42:39.423Z] : i Building Application...
+[info] [2023-08-08T18:43:47.344Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files               | Names         |      Size
+[Angular-plugin]: main.983f222c6baad24ba456.js      | main          | 966.18 kB
+[Angular-plugin]: styles.36ecd3aca4e87a458112.css   | styles        |  71.47 kB
+[Angular-plugin]: polyfills.d2a824273ffa35cae5bb.js | polyfills     |  33.11 kB
+[Angular-plugin]: runtime.8717589de7b65d27604e.js   | runtime       |   1.12 kB
+[Angular-plugin]: 
+[Angular-plugin]:                                   | Initial Total |   1.05 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:43:47.338Z - Hash: 09f085b64db845103464 - Time: 31531ms
+[debug] [2023-08-08T18:43:47.606Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/webapp 
+
+[debug] [2023-08-08T18:43:48.628Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:43:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=716816ac-d2de-40c2-8048-7716441a1b35;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=716816ac-d2de-40c2-8048-7716441a1b35;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T18:43:48.633Z] : 
+[info] [2023-08-08T18:43:48.635Z] : i functions(angular_function): URL => https://angular-60013485476.development.catalystserverless.in/server/angular_function/
+[info] [2023-08-08T18:43:48.636Z] : √ functions(angular_function): deploy successful
+[info] [2023-08-08T18:43:48.637Z] : i functions(createmovie): URL => https://angular-60013485476.development.catalystserverless.in/server/createmovie/
+[info] [2023-08-08T18:43:48.637Z] : √ functions(createmovie): deploy successful
+[info] [2023-08-08T18:43:48.638Z] : 
+[info] [2023-08-08T18:43:48.639Z] : √ client: deploy successful
+[info] [2023-08-08T18:43:48.639Z] : i client: URL => https://angular-60013485476.development.catalystserverless.in/app/index.html
+[info] [2023-08-08T18:43:48.639Z] : 
+[info] [2023-08-08T18:43:48.640Z] : √ Catalyst deploy complete!
+[debug] [2023-08-08T18:43:48.640Z] : NO ERRORS REGISTERED
+[debug] [2023-08-08T18:43:48.641Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-08-08T18:43:48.641Z] : TOTAL DURATION OF COMMAND EXEC : 82136
+[debug] [2023-08-08T18:43:48.812Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-08T18:43:49.568Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:43:49 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","JSESSIONID=9CF53F8D424FB5F9C8AE6F8127E870A2; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-08-08T18:43:49.569Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2023-08-08T18:43:49.572Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2023-08-08T18:46:34.878Z] : 
+[debug] [2023-08-08T18:46:34.879Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:46:34.879Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEV-029\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-08-08T18:46:34.879Z] : CLI Version:  1.15.1
+[debug] [2023-08-08T18:46:34.880Z] : Platform:     win32
+[debug] [2023-08-08T18:46:34.880Z] : Node Version: v16.1.0
+[debug] [2023-08-08T18:46:34.883Z] : Time:         Wed Aug 09 2023 00:16:34 GMT+0530 (India Standard Time)
+[debug] [2023-08-08T18:46:34.883Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:46:34.883Z] : 
+[debug] [2023-08-08T18:46:36.915Z] : > authorizing via signed-in user option
+[debug] [2023-08-08T18:46:36.917Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-08-08T18:46:36.939Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769 
+
+[debug] [2023-08-08T18:46:37.104Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:46:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=6bba4556-d6bc-4606-82a3-cdc0614f802f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6bba4556-d6bc-4606-82a3-cdc0614f802f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:46:37.110Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/environment 
+
+[debug] [2023-08-08T18:46:37.222Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:46:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=9424ea51-16ad-4c5a-8eac-8fc98149a51b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9424ea51-16ad-4c5a-8eac-8fc98149a51b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:46:37.804Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-08-08T18:46:38.540Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:46:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5978f2ea-18c8-4e14-ad30-4654aba715fb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5978f2ea-18c8-4e14-ad30-4654aba715fb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:46:38.547Z] : unknown eol undefined hence skipping check
+[debug] [2023-08-08T18:46:38.548Z] : unknown eol undefined hence skipping check
+[info] [2023-08-08T18:46:38.927Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[debug] [2023-08-08T18:46:41.121Z] : http port : '3010' is not available. Hence port '3011' will be used instead.
+[info] [2023-08-08T18:46:41.213Z] : 
+[info] [2023-08-08T18:46:41.214Z] : i Client[angular-app]: Plugin : "zcatalyst-cli-plugin-angular" is used for client serve
+[info] [2023-08-08T18:46:41.214Z] : 
+[info] [2023-08-08T18:46:41.538Z] : 
+[info] [2023-08-08T18:46:41.539Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-08-08T18:46:41.540Z] : i angular_function: http://localhost:3000/server/angular_function/
+[info] [2023-08-08T18:46:41.540Z] : i createmovie     : http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:46:41.540Z] : 
+[info] [2023-08-08T18:46:41.541Z] : 
+[info] [2023-08-08T18:46:41.541Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-08-08T18:46:41.541Z] : i client[angular-app]: http://localhost:3000/app/
+[info] [2023-08-08T18:46:41.542Z] : 
+[info] [2023-08-08T18:46:49.972Z] : [Angular-plugin]: NOTICE: Hot Module Replacement (HMR) is enabled for the dev server.
+[Angular-plugin]: See https://webpack.js.org/guides/hot-module-replacement for information on working with HMR for Webpack.
+[info] [2023-08-08T18:47:06.663Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files   | Names         |      Size
+[Angular-plugin]: vendor.js             | vendor        |   5.67 MB
+[Angular-plugin]: polyfills.js          | polyfills     | 538.53 kB
+[Angular-plugin]: styles.css, styles.js | styles        | 498.25 kB
+[Angular-plugin]: main.js               | main          | 100.90 kB
+[Angular-plugin]: runtime.js            | runtime       |  47.59 kB
+[Angular-plugin]: 
+[Angular-plugin]:                       | Initial Total |   6.83 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:47:06.324Z - Hash: 038d98b8750ba0adca64 - Time: 10611ms
+[info] [2023-08-08T18:47:06.664Z] : [Angular-plugin]: 
+[Angular-plugin]: ** Angular Live Development Server is listening on localhost:3050, open your browser on http://localhost:3050/app **
+[Angular-plugin]: 
+[info] [2023-08-08T18:47:06.665Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:47:06.680Z] : [Angular-plugin]: Please visit this url to access angular-app: http://localhost:3000/app/
+[info] [2023-08-08T18:47:07.949Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.038d98b8750ba0adca64.hot-update.js       | main    | 104.90 kB
+[Angular-plugin]: runtime.js, runtime.038d98b8750ba0adca64.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:47:07.896Z - Hash: a7d86e5054cd616d12ee - Time: 912ms
+[info] [2023-08-08T18:47:07.950Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:47:28.278Z] : proxy closed
+[info] [2023-08-08T18:48:05.809Z] : [Angular-plugin]: 
+[Angular-plugin]: 5 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:48:05.724Z - Hash: a7d86e5054cd616d12ee - Time: 578ms
+[info] [2023-08-08T18:48:05.810Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:48:09.414Z] : proxy closed
+[debug] [2023-08-08T18:48:10.383Z] : proxy closed
+[info] [2023-08-08T18:49:17.300Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.a7d86e5054cd616d12ee.hot-update.js       | main    | 104.91 kB
+[Angular-plugin]: runtime.js, runtime.a7d86e5054cd616d12ee.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:49:17.152Z - Hash: e813897af4bd8a33ae06 - Time: 562ms
+[info] [2023-08-08T18:49:17.303Z] : [Angular-plugin]: 
+[Angular-plugin]: Warning: D:\angular\client\node_modules\webpack\hot\dev-server.js depends on 'webpack/hot/emitter'. CommonJS or AMD dependencies can cause optimization bailouts.
+[Angular-plugin]: For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[Angular-plugin]: 
+[Angular-plugin]: 
+[info] [2023-08-08T18:49:17.304Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:49:25.503Z] : proxy closed
+[debug] [2023-08-08T18:49:40.905Z] : proxy closed
+[info] [2023-08-08T18:50:57.183Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |     Size
+[Angular-plugin]: runtime.js, runtime.e813897af4bd8a33ae06.hot-update.js | runtime | 47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 4 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:50:57.131Z - Hash: bb5dc57edac48e75a6f8 - Time: 517ms
+[info] [2023-08-08T18:50:57.184Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:51:20.456Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.bb5dc57edac48e75a6f8.hot-update.js       | main    | 104.99 kB
+[Angular-plugin]: runtime.js, runtime.bb5dc57edac48e75a6f8.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:51:20.351Z - Hash: f4b31a3fc3ac51e62309 - Time: 381ms
+[info] [2023-08-08T18:51:20.457Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:51:35.699Z] : proxy closed
+[debug] [2023-08-08T18:52:26.961Z] : proxy closed
+[debug] [2023-08-08T18:52:30.044Z] : proxy closed
+[debug] [2023-08-08T18:52:31.833Z] : proxy closed
+[debug] [2023-08-08T18:52:33.843Z] : proxy closed
+[debug] [2023-08-08T18:52:35.792Z] : proxy closed
+[debug] [2023-08-08T18:52:43.871Z] : proxy closed
+[debug] [2023-08-08T18:53:16.381Z] : proxy closed
+[info] [2023-08-08T18:57:42.132Z] : 
+change of MovieAction.java in createmovie detected. Preparing your function, please wait...
+[info] [2023-08-08T18:57:42.456Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[info] [2023-08-08T18:57:43.796Z] : i AdvancedIO[createmovie]: ready!
+[info] [2023-08-08T18:57:43.797Z] : i AdvancedIO[createmovie]: http://localhost:3000/server/createmovie/
+[info] [2023-08-08T18:58:03.556Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.f4b31a3fc3ac51e62309.hot-update.js       | main    | 104.15 kB
+[Angular-plugin]: runtime.js, runtime.f4b31a3fc3ac51e62309.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:58:03.484Z - Hash: 17a45ebce2f39865b492 - Time: 1271ms
+[info] [2023-08-08T18:58:03.557Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2023-08-08T18:58:16.095Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files                                    | Names   |      Size
+[Angular-plugin]: main.js, main.17a45ebce2f39865b492.hot-update.js       | main    | 105.03 kB
+[Angular-plugin]: runtime.js, runtime.17a45ebce2f39865b492.hot-update.js | runtime |  47.95 kB
+[Angular-plugin]: 
+[Angular-plugin]: 3 unchanged chunks
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T18:58:16.024Z - Hash: 1e2cff7edfb271168c16 - Time: 410ms
+[info] [2023-08-08T18:58:16.097Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[debug] [2023-08-08T18:58:22.423Z] : proxy closed
+[debug] [2023-08-08T18:58:30.567Z] : proxy closed
+[debug] [2023-08-08T18:58:40.586Z] : proxy closed
+[info] [2023-08-08T18:58:59.257Z] : Shutting down server
+[debug] [2023-08-08T18:58:59.296Z] : proxy closed
+[info] [2023-08-08T18:58:59.336Z] : 
+[info] [2023-08-08T18:58:59.337Z] : √ Shutdown complete
+[debug] [2023-08-08T18:58:59.337Z] : NO ERRORS REGISTERED
+[debug] [2023-08-08T18:58:59.338Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-08-08T18:58:59.339Z] : TOTAL DURATION OF COMMAND EXEC : 742447
+[debug] [2023-08-08T18:58:59.494Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-08T18:59:00.346Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:00 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","JSESSIONID=C673A1197DBAFC989F8FA16A29EC6FC5; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-08-08T18:59:00.348Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2023-08-08T18:59:00.351Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2023-08-08T18:59:03.061Z] : 
+[debug] [2023-08-08T18:59:03.061Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:59:03.062Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DEV-029\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-08-08T18:59:03.062Z] : CLI Version:  1.15.1
+[debug] [2023-08-08T18:59:03.062Z] : Platform:     win32
+[debug] [2023-08-08T18:59:03.062Z] : Node Version: v16.1.0
+[debug] [2023-08-08T18:59:03.065Z] : Time:         Wed Aug 09 2023 00:29:03 GMT+0530 (India Standard Time)
+[debug] [2023-08-08T18:59:03.065Z] : ----------------------------------------------------------------------
+[debug] [2023-08-08T18:59:03.065Z] : 
+[debug] [2023-08-08T18:59:04.977Z] : > authorizing via signed-in user option
+[debug] [2023-08-08T18:59:04.978Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2023-08-08T18:59:04.996Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769 
+
+[debug] [2023-08-08T18:59:05.166Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=d7a26086-52b3-49d0-b6db-44e6ddf0729e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d7a26086-52b3-49d0-b6db-44e6ddf0729e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:59:05.170Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/environment 
+
+[debug] [2023-08-08T18:59:05.277Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=440be879-1119-42bb-bc38-d82257bcbd9a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=440be879-1119-42bb-bc38-d82257bcbd9a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:59:05.298Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-08-08T18:59:05.417Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=95bfa8e0-2513-4cca-816f-2bd5208995bb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=95bfa8e0-2513-4cca-816f-2bd5208995bb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:59:05.424Z] : unknown eol undefined hence skipping check
+[debug] [2023-08-08T18:59:05.425Z] : unknown eol undefined hence skipping check
+[info] [2023-08-08T18:59:05.939Z] : Compiling D:\angular\functions\createmovie\MovieAction.java
+[debug] [2023-08-08T18:59:07.261Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:59:07.756Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=f9ad65a4-d35b-4880-a262-0be2e661a502;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f9ad65a4-d35b-4880-a262-0be2e661a502;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-08T18:59:07.762Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/server/upsert 
+
+[debug] [2023-08-08T18:59:10.302Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 18:59:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=8a2e6083-2a16-45da-8c5a-4581e706d40d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8a2e6083-2a16-45da-8c5a-4581e706d40d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T18:59:12.813Z] : i Plugin : "zcatalyst-cli-plugin-angular" is used for client deploy
+[info] [2023-08-08T18:59:12.813Z] : i Building Application...
+[info] [2023-08-08T19:00:20.738Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files               | Names         |      Size
+[Angular-plugin]: main.dc5d4e9d9bf2c8e39b0f.js      | main          | 966.05 kB
+[Angular-plugin]: styles.36ecd3aca4e87a458112.css   | styles        |  71.47 kB
+[Angular-plugin]: polyfills.d2a824273ffa35cae5bb.js | polyfills     |  33.11 kB
+[Angular-plugin]: runtime.8717589de7b65d27604e.js   | runtime       |   1.12 kB
+[Angular-plugin]: 
+[Angular-plugin]:                                   | Initial Total |   1.05 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2023-08-08T19:00:20.733Z - Hash: 5f40787d3ea997df1aac - Time: 31237ms
+[debug] [2023-08-08T19:00:20.945Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/1141000000028769/webapp 
+
+[debug] [2023-08-08T19:00:21.971Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 19:00:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=b5195bb7-68fe-4e52-b49b-3412b0370d3e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b5195bb7-68fe-4e52-b49b-3412b0370d3e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-08T19:00:21.976Z] : 
+[info] [2023-08-08T19:00:21.977Z] : i functions(angular_function): URL => https://angular-60013485476.development.catalystserverless.in/server/angular_function/
+[info] [2023-08-08T19:00:21.978Z] : √ functions(angular_function): deploy successful
+[info] [2023-08-08T19:00:21.979Z] : i functions(createmovie): URL => https://angular-60013485476.development.catalystserverless.in/server/createmovie/
+[info] [2023-08-08T19:00:21.980Z] : √ functions(createmovie): deploy successful
+[info] [2023-08-08T19:00:21.980Z] : 
+[info] [2023-08-08T19:00:21.981Z] : √ client: deploy successful
+[info] [2023-08-08T19:00:21.981Z] : i client: URL => https://angular-60013485476.development.catalystserverless.in/app/index.html
+[info] [2023-08-08T19:00:21.982Z] : 
+[info] [2023-08-08T19:00:21.982Z] : √ Catalyst deploy complete!
+[debug] [2023-08-08T19:00:21.983Z] : NO ERRORS REGISTERED
+[debug] [2023-08-08T19:00:21.984Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-08-08T19:00:21.984Z] : TOTAL DURATION OF COMMAND EXEC : 77030
+[debug] [2023-08-08T19:00:22.154Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-08-08T19:00:22.933Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 08 Aug 2023 19:00:23 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","JSESSIONID=DF18B99CE127BAC693D0978182E705EA; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-08-08T19:00:22.933Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2023-08-08T19:00:22.935Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
